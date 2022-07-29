@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Smartendance",
+    "slug": "Smartendance",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
