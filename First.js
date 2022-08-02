@@ -3,7 +3,6 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TextInput, TouchableOpacity } from 'react-native';
 
 export default function First() {
-
   let navigation = useNavigation();
   let onClick = () => {
     navigation.dispatch(
@@ -12,7 +11,7 @@ export default function First() {
   }
 
   let signUp = () => {
-    
+    navigation.navigate('SignUp');
   }
 
   return (
